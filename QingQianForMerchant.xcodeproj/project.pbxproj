@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952530081DB9AB1D00DA8A03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 952530071DB9AB1D00DA8A03 /* main.m */; };
+		9525300B1DB9AB1D00DA8A03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9525300A1DB9AB1D00DA8A03 /* AppDelegate.m */; };
+		9525300E1DB9AB1D00DA8A03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9525300D1DB9AB1D00DA8A03 /* ViewController.m */; };
+		952530111DB9AB1D00DA8A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525300F1DB9AB1D00DA8A03 /* Main.storyboard */; };
+		952530141DB9AB1D00DA8A03 /* QingQianForMerchant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 952530121DB9AB1D00DA8A03 /* QingQianForMerchant.xcdatamodeld */; };
+		952530161DB9AB1D00DA8A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952530151DB9AB1D00DA8A03 /* Assets.xcassets */; };
+		952530191DB9AB1D00DA8A03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952530171DB9AB1D00DA8A03 /* LaunchScreen.storyboard */; };
+		952530241DB9AB1E00DA8A03 /* QingQianForMerchantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 952530231DB9AB1E00DA8A03 /* QingQianForMerchantTests.m */; };
+		9525302F1DB9AB1E00DA8A03 /* QingQianForMerchantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9525302E1DB9AB1E00DA8A03 /* QingQianForMerchantUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		952530201DB9AB1E00DA8A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95252FFB1DB9AB1D00DA8A03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952530021DB9AB1D00DA8A03;
+			remoteInfo = QingQianForMerchant;
+		};
+		9525302B1DB9AB1E00DA8A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95252FFB1DB9AB1D00DA8A03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952530021DB9AB1D00DA8A03;
+			remoteInfo = QingQianForMerchant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		952530031DB9AB1D00DA8A03 /* QingQianForMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QingQianForMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		952530071DB9AB1D00DA8A03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		952530091DB9AB1D00DA8A03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9525300A1DB9AB1D00DA8A03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9525300C1DB9AB1D00DA8A03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9525300D1DB9AB1D00DA8A03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		952530101DB9AB1D00DA8A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		952530131DB9AB1D00DA8A03 /* QingQianForMerchant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QingQianForMerchant.xcdatamodel; sourceTree = "<group>"; };
+		952530151DB9AB1D00DA8A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		952530181DB9AB1D00DA8A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9525301A1DB9AB1D00DA8A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9525301F1DB9AB1E00DA8A03 /* QingQianForMerchantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QingQianForMerchantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952530231DB9AB1E00DA8A03 /* QingQianForMerchantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QingQianForMerchantTests.m; sourceTree = "<group>"; };
+		952530251DB9AB1E00DA8A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9525302A1DB9AB1E00DA8A03 /* QingQianForMerchantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QingQianForMerchantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9525302E1DB9AB1E00DA8A03 /* QingQianForMerchantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QingQianForMerchantUITests.m; sourceTree = "<group>"; };
+		952530301DB9AB1E00DA8A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952530001DB9AB1D00DA8A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9525301C1DB9AB1E00DA8A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952530271DB9AB1E00DA8A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95252FFA1DB9AB1D00DA8A03 = {
+			isa = PBXGroup;
+			children = (
+				952530051DB9AB1D00DA8A03 /* QingQianForMerchant */,
+				952530221DB9AB1E00DA8A03 /* QingQianForMerchantTests */,
+				9525302D1DB9AB1E00DA8A03 /* QingQianForMerchantUITests */,
+				952530041DB9AB1D00DA8A03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952530041DB9AB1D00DA8A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952530031DB9AB1D00DA8A03 /* QingQianForMerchant.app */,
+				9525301F1DB9AB1E00DA8A03 /* QingQianForMerchantTests.xctest */,
+				9525302A1DB9AB1E00DA8A03 /* QingQianForMerchantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952530051DB9AB1D00DA8A03 /* QingQianForMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				952530091DB9AB1D00DA8A03 /* AppDelegate.h */,
+				9525300A1DB9AB1D00DA8A03 /* AppDelegate.m */,
+				9525300C1DB9AB1D00DA8A03 /* ViewController.h */,
+				9525300D1DB9AB1D00DA8A03 /* ViewController.m */,
+				9525300F1DB9AB1D00DA8A03 /* Main.storyboard */,
+				952530151DB9AB1D00DA8A03 /* Assets.xcassets */,
+				952530171DB9AB1D00DA8A03 /* LaunchScreen.storyboard */,
+				9525301A1DB9AB1D00DA8A03 /* Info.plist */,
+				952530121DB9AB1D00DA8A03 /* QingQianForMerchant.xcdatamodeld */,
+				952530061DB9AB1D00DA8A03 /* Supporting Files */,
+			);
+			path = QingQianForMerchant;
+			sourceTree = "<group>";
+		};
+		952530061DB9AB1D00DA8A03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				952530071DB9AB1D00DA8A03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		952530221DB9AB1E00DA8A03 /* QingQianForMerchantTests */ = {
+			isa = PBXGroup;
+			children = (
+				952530231DB9AB1E00DA8A03 /* QingQianForMerchantTests.m */,
+				952530251DB9AB1E00DA8A03 /* Info.plist */,
+			);
+			path = QingQianForMerchantTests;
+			sourceTree = "<group>";
+		};
+		9525302D1DB9AB1E00DA8A03 /* QingQianForMerchantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9525302E1DB9AB1E00DA8A03 /* QingQianForMerchantUITests.m */,
+				952530301DB9AB1E00DA8A03 /* Info.plist */,
+			);
+			path = QingQianForMerchantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952530021DB9AB1D00DA8A03 /* QingQianForMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952530331DB9AB1E00DA8A03 /* Build configuration list for PBXNativeTarget "QingQianForMerchant" */;
+			buildPhases = (
+				95252FFF1DB9AB1D00DA8A03 /* Sources */,
+				952530001DB9AB1D00DA8A03 /* Frameworks */,
+				952530011DB9AB1D00DA8A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QingQianForMerchant;
+			productName = QingQianForMerchant;
+			productReference = 952530031DB9AB1D00DA8A03 /* QingQianForMerchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9525301E1DB9AB1E00DA8A03 /* QingQianForMerchantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952530361DB9AB1E00DA8A03 /* Build configuration list for PBXNativeTarget "QingQianForMerchantTests" */;
+			buildPhases = (
+				9525301B1DB9AB1E00DA8A03 /* Sources */,
+				9525301C1DB9AB1E00DA8A03 /* Frameworks */,
+				9525301D1DB9AB1E00DA8A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952530211DB9AB1E00DA8A03 /* PBXTargetDependency */,
+			);
+			name = QingQianForMerchantTests;
+			productName = QingQianForMerchantTests;
+			productReference = 9525301F1DB9AB1E00DA8A03 /* QingQianForMerchantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		952530291DB9AB1E00DA8A03 /* QingQianForMerchantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952530391DB9AB1E00DA8A03 /* Build configuration list for PBXNativeTarget "QingQianForMerchantUITests" */;
+			buildPhases = (
+				952530261DB9AB1E00DA8A03 /* Sources */,
+				952530271DB9AB1E00DA8A03 /* Frameworks */,
+				952530281DB9AB1E00DA8A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9525302C1DB9AB1E00DA8A03 /* PBXTargetDependency */,
+			);
+			name = QingQianForMerchantUITests;
+			productName = QingQianForMerchantUITests;
+			productReference = 9525302A1DB9AB1E00DA8A03 /* QingQianForMerchantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95252FFB1DB9AB1D00DA8A03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = UnionBusiness;
+				TargetAttributes = {
+					952530021DB9AB1D00DA8A03 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 92B84Z3624;
+						ProvisioningStyle = Automatic;
+					};
+					9525301E1DB9AB1E00DA8A03 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 92B84Z3624;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 952530021DB9AB1D00DA8A03;
+					};
+					952530291DB9AB1E00DA8A03 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 92B84Z3624;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 952530021DB9AB1D00DA8A03;
+					};
+				};
+			};
+			buildConfigurationList = 95252FFE1DB9AB1D00DA8A03 /* Build configuration list for PBXProject "QingQianForMerchant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95252FFA1DB9AB1D00DA8A03;
+			productRefGroup = 952530041DB9AB1D00DA8A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952530021DB9AB1D00DA8A03 /* QingQianForMerchant */,
+				9525301E1DB9AB1E00DA8A03 /* QingQianForMerchantTests */,
+				952530291DB9AB1E00DA8A03 /* QingQianForMerchantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952530011DB9AB1D00DA8A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952530191DB9AB1D00DA8A03 /* LaunchScreen.storyboard in Resources */,
+				952530161DB9AB1D00DA8A03 /* Assets.xcassets in Resources */,
+				952530111DB9AB1D00DA8A03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9525301D1DB9AB1E00DA8A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952530281DB9AB1E00DA8A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95252FFF1DB9AB1D00DA8A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9525300E1DB9AB1D00DA8A03 /* ViewController.m in Sources */,
+				9525300B1DB9AB1D00DA8A03 /* AppDelegate.m in Sources */,
+				952530141DB9AB1D00DA8A03 /* QingQianForMerchant.xcdatamodeld in Sources */,
+				952530081DB9AB1D00DA8A03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9525301B1DB9AB1E00DA8A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952530241DB9AB1E00DA8A03 /* QingQianForMerchantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952530261DB9AB1E00DA8A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9525302F1DB9AB1E00DA8A03 /* QingQianForMerchantUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		952530211DB9AB1E00DA8A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952530021DB9AB1D00DA8A03 /* QingQianForMerchant */;
+			targetProxy = 952530201DB9AB1E00DA8A03 /* PBXContainerItemProxy */;
+		};
+		9525302C1DB9AB1E00DA8A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952530021DB9AB1D00DA8A03 /* QingQianForMerchant */;
+			targetProxy = 9525302B1DB9AB1E00DA8A03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9525300F1DB9AB1D00DA8A03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952530101DB9AB1D00DA8A03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		952530171DB9AB1D00DA8A03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952530181DB9AB1D00DA8A03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		952530311DB9AB1E00DA8A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		952530321DB9AB1E00DA8A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952530341DB9AB1E00DA8A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92B84Z3624;
+				INFOPLIST_FILE = QingQianForMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnionBusiness.QingQianForMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		952530351DB9AB1E00DA8A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92B84Z3624;
+				INFOPLIST_FILE = QingQianForMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnionBusiness.QingQianForMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		952530371DB9AB1E00DA8A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92B84Z3624;
+				INFOPLIST_FILE = QingQianForMerchantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnionBusiness.QingQianForMerchantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QingQianForMerchant.app/QingQianForMerchant";
+			};
+			name = Debug;
+		};
+		952530381DB9AB1E00DA8A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92B84Z3624;
+				INFOPLIST_FILE = QingQianForMerchantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnionBusiness.QingQianForMerchantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QingQianForMerchant.app/QingQianForMerchant";
+			};
+			name = Release;
+		};
+		9525303A1DB9AB1E00DA8A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 92B84Z3624;
+				INFOPLIST_FILE = QingQianForMerchantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnionBusiness.QingQianForMerchantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QingQianForMerchant;
+			};
+			name = Debug;
+		};
+		9525303B1DB9AB1E00DA8A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 92B84Z3624;
+				INFOPLIST_FILE = QingQianForMerchantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnionBusiness.QingQianForMerchantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QingQianForMerchant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95252FFE1DB9AB1D00DA8A03 /* Build configuration list for PBXProject "QingQianForMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952530311DB9AB1E00DA8A03 /* Debug */,
+				952530321DB9AB1E00DA8A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952530331DB9AB1E00DA8A03 /* Build configuration list for PBXNativeTarget "QingQianForMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952530341DB9AB1E00DA8A03 /* Debug */,
+				952530351DB9AB1E00DA8A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		952530361DB9AB1E00DA8A03 /* Build configuration list for PBXNativeTarget "QingQianForMerchantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952530371DB9AB1E00DA8A03 /* Debug */,
+				952530381DB9AB1E00DA8A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		952530391DB9AB1E00DA8A03 /* Build configuration list for PBXNativeTarget "QingQianForMerchantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9525303A1DB9AB1E00DA8A03 /* Debug */,
+				9525303B1DB9AB1E00DA8A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		952530121DB9AB1D00DA8A03 /* QingQianForMerchant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				952530131DB9AB1D00DA8A03 /* QingQianForMerchant.xcdatamodel */,
+			);
+			currentVersion = 952530131DB9AB1D00DA8A03 /* QingQianForMerchant.xcdatamodel */;
+			path = QingQianForMerchant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95252FFB1DB9AB1D00DA8A03 /* Project object */;
+}
