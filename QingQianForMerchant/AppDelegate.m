@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "RootTabViewController.h"
+#import "LoginViewController.h"
+#import "Login.h"
+#import "StartView.h"
+#import "BaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +21,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    if ([Login isLogin]) {
+        
+        RootTabViewController *rootTab = [[RootTabViewController alloc] init];
+        self.window.rootViewController = rootTab;
+    }else{
+        LoginViewController *login = [[LoginViewController alloc] init];
+        BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:login];
+        self.window.rootViewController = nav;
+    }
+
+    [self.window makeKeyAndVisible];
+    
+    /*启动页*/
+//    StartView *startView = [StartView startView];
+//    [startView startAnimationWithCompletionBlock:^(StartView *startview) {
+//        
+//    }];
     return YES;
 }
 

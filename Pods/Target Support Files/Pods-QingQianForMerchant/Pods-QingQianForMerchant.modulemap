@@ -1,0 +1,6 @@
+framework module Pods_QingQianForMerchant {
+  umbrella header "Pods-QingQianForMerchant-umbrella.h"
+
+  export *
+  module * { export * }
+}

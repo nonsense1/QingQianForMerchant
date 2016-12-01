@@ -1,0 +1,88 @@
+//
+//  QQFMPrefixHeader.pch
+//  QingQianForMerchant
+//
+//  Created by 丰收 on 16/10/21.
+//  Copyright © 2016年 UnionBusiness. All rights reserved.
+//
+#import <Availability.h>
+
+
+#ifndef QQFMPrefixHeader_pch
+#define QQFMPrefixHeader_pch
+
+
+
+#endif /* QQFMPrefixHeader_pch */
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "MBProgressHUD.h"
+#import <YYModel/YYModel.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import "UIImage+Common.h"
+#import "UIColor+expended.h"
+#import "UIButton+Bootstrap.h"
+#import "UIView+Common.h"
+#import "UIView+Frame.h"
+#import "UIBarButtonItem+Common.h"
+#import "UITableView+Common.h"
+#import "NSString+Common.h"
+#import "UILabel+Common.h"
+#import "NSURL+Common.h"
+
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+//测试地址
+#define kBaseUrlStr_Test @"http://60.205.92.120:83/"
+
+//手机版地址
+#define kBaseUrlStr_Phone @"http://ios.lsxfpt.com/"
+
+//常用变量
+#define kDevice_Is_iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define kLoginPaddingLeftWidth 18.0
+#define kPaddingLeftWidth 20.0
+#define kPaddingRightWidth 20.0
+
+#define DebugLog(s,...) NSLog(@"%s(%d): %@",__FUNCTION__,__LINE__,[NSString stringWithFormat:(s),##__VA_ARGS__])
+#define kKeyWindow [UIApplication sharedApplication].keyWindow
+#define kScreen_Bounds [UIScreen mainScreen].bounds
+#define kScreen_Height [UIScreen mainScreen].bounds.size.height
+#define kScreen_Width [UIScreen mainScreen].bounds.size.width
+
+#define  kBadgeTipStr @"badgeTip"
+
+#define kNavTitleFontSize 18
+
+//常用颜色
+#define kColorNavBG [UIColor colorWithHexString:@"0xF61D4A"]
+#define kColorNavTitle [UIColor colorWithHexString:@"0xffffff"]
+#define kColorTabBG [UIColor colorWithHexString:@"0xF8F8F8"]
+#define kColorBtnRed [UIColor colorWithHexString:@"0xF61D4A"]
+#define kColorBtnBlue [UIColor colorWithHexString:@"0x5BC0DE"]
+#define kColorBtnGreen [UIColor colorWithHexString:@"0x5BB85D"]
+#define kColorBtnYellow [UIColor colorWithHexString:@"0xF5B963"]
+#define kColorBtnGray [UIColor colorWithHexString:@"0x4E525E"]
+#define kColorBrandGreen [UIColor colorWithHexString:@"0x3BBD79"]
+#define kColorBrandRed [UIColor colorWithHexString:@"0xFF5846"]
+#define kColor222 [UIColor colorWithHexString:@"0x2222222"]
+#define kColorDDD [UIColor colorWithHexString:@"0xDDDDDD"]
+
+#endif

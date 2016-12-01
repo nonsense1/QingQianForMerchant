@@ -6,8 +6,8 @@
 //  Copyright © 2016年 UnionBusiness. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
+
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
